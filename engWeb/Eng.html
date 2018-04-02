@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width; initial-scale=1"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="css/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <style>
+        body{
+          background-color: black;  
+        }
+  .head{
+        height:90px;
+        background-color: black;
+    }
+        h1{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    .list{
+        list-style: none;
+        padding: 9px;
+                           
+    }
+    .list li a{
+        text-decoration: none;
+        color: white;
+    }
+    #head1 li{
+        float: left;
+        padding: 10px 30px 10px 30px;
+    }
+    #head2 li{
+        float: right;
+        padding: 10px 30px 10px 30px;
+    }
+    .heading{
+            text-align: center;
+            background-color: black;
+        }
+    .search{
+        height: 130px;
+        background-color:black;
+        color: white;
+        text-align: center;
+    }
+    #simg{
+        height: 50px;
+        width: 70px;
+    }
+    #sbox{
+        width:60%;
+        text-align: center;
+        margin-bottom: 5px;
+        border:0px;
+        border-radius: 5px;
+    }
+    
+    .section{
+        height:40%;
+        padding:5px;
+        border-radius: 10px;
+    }
+    .slide{
+        height: 100%;
+        float: right;
+        width: 75%;
+    }
+        #s{
+            height: 100%;
+            width: 100%;
+        }
+    .login{
+        background-color: black;
+        color: white;
+        height:100%;
+        width:23%;
+        padding: 10px;
+        text-align: center;
+        float:left;
+        border: 1px solid white;
+    }
+    #user{
+        margin-top: 15px;
+    }
+    #pass{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+        .album{
+            width: auto;
+        }
+        .billnav{
+            color: white;
+            float: left;
+            border: 1px solid white;
+            width: 100%;
+        }
+        .bill{
+            color: white;
+            border: 1px solid white;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 30px;
+        }
+        .trendnav{
+            color: white;
+            border: 1px solid white;
+            width: 100%;
+            float: left;
+        }
+        .trend{
+            color: white;
+            border: 1px solid white;
+            width: 100%;
+            float: left;
+            height: auto;
+            padding: 30px;
+        }
+    
+        .copyright{
+            color: white;
+            text-align: center;
+            border: 1px solid white;
+        }
+        .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+        li a:hover, .dropdown:hover .dropbtn {
+    background-color:gray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lighgray;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+        #f{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+    <body>
+        <div class="main">
+           <div class="head">
+        <ul class="list">
+            <div id="head1">
+            <li><a href="#"><img src="images\logo1.png" height="60" width="60" style="background-color: white;"></a></li>        
+            </div>
+            <div id="head2">
+            <li><a href="signup.html">Sign Up</a></li>
+            <li class="dropdown">
+    <a href="" class="dropbtn">Discover</a>
+    <div class="dropdown-content">
+      <a href="">Bollywood</a>
+      <a href="">Hollywood</a>
+      <a href="">Pop</a>
+      <a href="">jazz</a>
+                </div>
+</li>
+            <li><a href="#">Radio</a></li>
+            <li><a href="Eng.html">Home</a></li>
+            
+            </div>
+        </ul>
+        </div>
+            <div class="heading">
+                <h1>música</h1><br>
+                <p><strong>Music</strong></p>
+            </div>
+            <div class="search">
+            <label><strong>Find Songs,Albums and many mores</strong></label><br>
+            <input type="search" id="sbox" placeholder="Search Here" /><br>
+            <a href="https://www.google.co.in"><img style=" margin-top: 3px; height: 25; width: 25;" src="images\abc.png" id="simg"></a>
+        </div>
+        </div>
+        <div class="section">
+            <div class="login">
+                <form>
+                    <h4 align="center">LOGIN</h4>
+                    <label>Username:</label>
+                    <input id="user" type="text" style="width: 200px;" placeholder="eg.abc@example.com"><br>
+                    <label>Password:</label>
+                    <input id="pass" type="password" style="width: 200px;" placeholder="Password Here"><br>
+                    <button type="button" class="btn">Login</button>
+                    <button type="button" class="btn">Reset</button><br>
+                    <a href="#" style="color: white;">Forgot Password?</a>
+                    
+                </form>
+            </div>
+
+            <div class="slide">
+                <img id="s" src="images\download.png">
+            </div>
+         </div>
+        <div class="section2">
+            <div class="album">
+                <div class="billnav">BillBoard HOT 100</div>
+                <div class="bill">
+                    <a href><img src="images/1.jpg"></a>
+                    <a href><img src="images/2.jpg"></a>
+                    <a href><img src="images/3.jpg"></a>
+                    <a href><img src="images/10.jpg"></a>
+                    <a href><img src="images/13.jpg"></a>
+                    <a href><img src="images/3.jpg"></a>
+                    <a href><img src="images/4.jpg"></a><br>
+                    <a href><img src="images/5.jpg"></a>
+                    <a href><img src="images/11.jpg"></a>
+                    <a href><img src="images/6.jpg"></a>
+                    <a href><img src="images/7.jpg"></a>
+                    <a href><img src="images/9.jpg"></a>
+                    <a href><img src="images/12.jpg"></a>
+                    <a href><img src="images/15.jpg"></a>
+                    
+                </div>
+                
+                <div class="trendnav">Trending</div>
+                <div class="trend">
+                    <a href><img src="images/13.jpg"></a>
+                    <a href><img src="images/12.jpg"></a>
+                    <a href><img src="images/1.jpg"></a>
+                    <a href><img src="images/14.jpg"></a>
+                    <a href><img src="images/7.jpg"></a>
+                    <a href><img src="images/9.jpg"></a>
+                    <a href><img src="images/10.jpg"></a><br>
+                    <a href><img src="images/3.jpg"></a>
+                    <a href><img src="images/15.jpg"></a>
+                    <a href><img src="images/2.jpg"></a>
+                    <a href><img src="images/5.jpg"></a>
+                    <a href><img src="images/3.jpg"></a>
+                    <a href><img src="images/10.jpg"></a>
+                    <a href><img src="images/7.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div align="center">
+            <a href=""><img id="f" src="images/logo%20(1).png"></a>
+            <a href=""><img  id="f" src="images/logo.svg"></a>
+                <a href=""><img  id="f" src="images/instagram.png"></a>
+        </div>
+        <div class="copyright">Copyright© by Anurag Dhale
+        
+        <br>
+        Somes Rights are reserved</div>
+            
+    </body>
+</html>
